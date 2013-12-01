@@ -12,6 +12,8 @@ gem 'rails_12factor'
 
 gem 'will_paginate', '~> 3.0.5'
 
+gem 'protected_attributes'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
