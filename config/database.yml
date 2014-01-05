@@ -48,8 +48,8 @@ test:
   encoding: unicode
   database: reddit_on_rails_test
   pool: 5
-  username: reddit_on_rails
-  password:
+  username: postgres
+  password: tuoitre!
 
 production:
   adapter: postgresql
