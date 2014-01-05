@@ -10,6 +10,8 @@ RedditOnRails::Application.routes.draw do
   resources :comments
   resources :links
   resources :pages
+
+  get 'search' => 'search#index'
   root :to => "pages#index"
 
   # Example of regular route:
